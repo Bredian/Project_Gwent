@@ -13,7 +13,9 @@ typedef struct card{
   char * type;
 } card;
 
-#include "library.h"
+#include "library_NR.h"
+#include "library_MR.h"
+
 
 
 void setup() {
