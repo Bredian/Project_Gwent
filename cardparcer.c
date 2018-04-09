@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <string.h>
 int main(int argc, char * argv[]){
-	assert(argc==2);
+	assert(argc==3);
 	printf("Cardparcer launched\n");
 	char  name[100];
 	char  text[20];
@@ -13,7 +13,7 @@ int main(int argc, char * argv[]){
 	library = fopen(argv[1],"r");
 	printf("Card library found\n");
 	assert(library!=NULL);
-	code = fopen("library.h","w");
+	code = fopen(argv[2],"w");
 	printf("Code file created\n");
 	assert(code!=NULL);
 	while(!feof(library)){
@@ -23,33 +23,39 @@ int main(int argc, char * argv[]){
 		printf("Card name written\n");
 		fscanf(library,"%s",text);
 		printf("Card identy read\n");
-		if(strcmp(text,"leader")==0)
+		if(strcmp(text,"leader")==0){
 			value[0]=1;
-            value[1]=0;
-            value[2]=0;
-		if(strcmp(text,"special")==0)
+            		value[1]=0;
+            	value[2]=0;
+		}
+		if(strcmp(text,"special")==0){
 			value[0]=0;
-            value[1]=1;
-            value[2]=0;
-		if(strcmp(text,"unit")==0)
+            		value[1]=1;
+            		value[2]=0;
+		}
+		if(strcmp(text,"unit")==0){
 			value[0]=0;
-            value[1]=0;
-            value[2]=1;
+            		value[1]=0;
+            		value[2]=1;
+		}
 		printf("Card identity written\n");
 		fscanf(library,"%d",&kek);
 		printf("Card skill read\n");
-        	if(strcmp(text,"leader")==0)
+        	if(strcmp(text,"leader")==0){
 			skill[0]=kek;
-            skill[1]=0;
-            skill[2]=0;
-		if(strcmp(text,"special")==0)
+            		skill[1]=0;
+            		skill[2]=0;
+		}
+		if(strcmp(text,"special")==0){
 			skill[0]=0;
-            skill[1]=kek;
-            skill[2]=0;
-		if(strcmp(text,"unit")==0)
+            		skill[1]=kek;
+            		skill[2]=0;
+		}
+		if(strcmp(text,"unit")==0){
 			skill[0]=0;
-            skill[1]=0;
-            skill[2]=kek;
+            		skill[1]=0;
+            		skill[2]=kek;
+		}
 		printf("Card skill written\n");
 		fscanf(library,"%d",&heroic);
 		printf("Card heroism read\n");
