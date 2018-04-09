@@ -26,7 +26,7 @@ int main(int argc, char * argv[]){
 		if(strcmp(text,"leader")==0){
 			value[0]=1;
             		value[1]=0;
-            	value[2]=0;
+            		value[2]=0;
 		}
 		if(strcmp(text,"special")==0){
 			value[0]=0;
