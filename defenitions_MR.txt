@@ -87,6 +87,7 @@ leader
 4
 Eredin_Aen_Elle_King
 Eredin_Killer_of_Oberone
+leader
 9
 0
 0
@@ -94,6 +95,7 @@ Eredin_Killer_of_Oberone
 4
 Eredin_Killer_of_Oberone
 Eredin_Treacherous
+leader
 10
 0
 0
@@ -372,7 +374,7 @@ unit
 1
 4
 Dandelion
-Plague_Maiern
+Plague_Maiden
 unit
 0
 0
@@ -564,6 +566,7 @@ unit
 4
 Elemental
 Earth_Elemental
+unit
 0
 0
 6
