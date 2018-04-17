@@ -1,0 +1,37 @@
+Here is a structure of a card explained:
+volatile card Avallach_MR={0,0,1,0,0,2,1,0,1,4,"Avallach"};
+first - leader or not
+second - special or not
+third - unit or not
+fifth - leader skill(0 if not leader)
+sixth - special skill:
+0 - if not special
+1 - horn
+2 - scorch
+3 - decoy
+4 - frost
+5 - fog
+6 - rain
+7 - clear sky
+seventh - unit skill:
+0 - if not unit or don't have any
+1 - draws all copies
+2 - spy
+3 - agile (2 rows)
+4 - medic
+5 - strengthen similar cards on board
+6 - boost by 1 any card on row exept self
+7 - scorch on row
+8 - horn
+9 - cow's skill
+10 - for Gunther and Arachnas Behemoth
+11 - skill 3 + skill 6
+eighth - cards strength if has any
+ningth - cards row if has any
+tenth - faction:
+1 - Nothern Realms
+2 - Nilfgaard
+3 - Scoiatel
+4 - Monster
+5 - Skellige (yes, there will be Skellige)
+eleventh - card type (useful for unit skills 1,5,11)
