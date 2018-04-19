@@ -14,6 +14,14 @@ unit
 1
 2
 Geralt_of_Rivia
+Cirilla_Fiona_Elen_Rhiannon_NG
+unit
+0
+1
+15
+1
+2
+Cirilla_Fiona_Elen_Rhiannon
 Yennifer_of_Vengerberg_NG
 unit
 4
