@@ -16,7 +16,7 @@ typedef struct card{
 #include "library_NR.h"
 #include "library_MR.h"
 #include "library_NG.h"
-
+#include "library_ST.h"
 
 void setup() {
   // put your setup code here, to run once:
