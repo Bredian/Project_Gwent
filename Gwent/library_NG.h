@@ -1,5 +1,6 @@
 volatile card Avallach_NG={0,0,1,0,0,2,1,0,1,2,"Avallach"};
 volatile card Geralt_of_Rivia_NG={0,0,1,0,0,0,1,15,1,2,"Geralt_of_Rivia"};
+volatile card Cirilla_Fiona_Elen_Rhiannon_NG={0,0,1,0,0,0,1,15,1,2,"Cirilla_Fiona_Elen_Rhiannon"};
 volatile card Yennifer_of_Vengerberg_NG={0,0,1,0,0,4,1,7,2,2,"Yennifer_of_vengerberg"};
 volatile card Letho_of_Gullet={0,0,1,0,0,0,1,10,1,2,"Letho_of_Gullet"};
 volatile card Triss_Merigold_NG={0,0,1,0,0,0,1,7,1,2,"Triss_Merigold"};
