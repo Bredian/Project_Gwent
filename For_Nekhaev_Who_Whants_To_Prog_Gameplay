@@ -13,6 +13,7 @@ sixth - special skill:
 5 - fog
 6 - rain
 7 - clear sky
+8 - mushrooms
 seventh - unit skill:
 0 - if not unit or don't have any
 1 - draws all copies
@@ -26,6 +27,7 @@ seventh - unit skill:
 9 - cow's skill
 10 - for Gunther and Arachnas Behemoth
 11 - skill 3 + skill 6
+12 - mushroom contact
 eighth - cards strength if has any
 ningth - cards row if has any
 tenth - faction:
