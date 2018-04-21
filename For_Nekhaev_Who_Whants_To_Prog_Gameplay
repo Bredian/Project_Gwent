@@ -14,6 +14,7 @@ sixth - special skill:
 6 - rain
 7 - clear sky
 8 - mushrooms
+9 - skellige storm
 seventh - unit skill:
 0 - if not unit or don't have any
 1 - draws all copies
@@ -28,6 +29,7 @@ seventh - unit skill:
 10 - for Gunther and Arachnas Behemoth
 11 - skill 3 + skill 6
 12 - mushroom contact
+13 - Ermion
 eighth - cards strength if has any
 ningth - cards row if has any
 tenth - faction:
